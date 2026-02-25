@@ -1,0 +1,72 @@
+############################################
+# 🐍 PYTHON (FastAPI Backend)
+############################################
+
+# Virtual Environment
+venv/
+.env/
+backend/venv/
+backend/.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite (if used)
+*.sqlite3
+
+# Logs
+*.log
+
+# Alembic
+backend/alembic/versions/__pycache__/
+
+############################################
+# 🗄 DATABASE
+############################################
+
+# Local DB files (if any)
+*.db
+
+############################################
+# 🔥 CELERY / REDIS
+############################################
+
+celerybeat-schedule
+*.pid
+
+############################################
+# 🖥 REACT FRONTEND (Vite)
+############################################
+
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+############################################
+# 🧠 OCR FILES
+############################################
+
+# Uploaded images
+uploads/
+*.jpg
+*.png
+*.jpeg
+
+############################################
+# 🛠 VS CODE / IDE
+############################################
+
+.vscode/
+.idea/
+.DS_Store
+
+############################################
+# 🔐 SECRET FILES
+############################################
+
+.env
+*.env
